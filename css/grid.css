@@ -1,0 +1,96 @@
+/* Override in custom CSS to define your sites outer width */
+.row-wrapper { display: block; width: 100%; }
+
+/* Override in custom CSS to define your sites row width */
+.row { width: auto; margin: auto; padding: 0px; }
+
+.row .col { display: inline-block; _display: inline; float: left; }
+
+/* Define column widths */
+.col.full { width: 100%; }
+.col.third-double { width: 66.6%; }
+.col.fifty-five { width: 55%; }
+.col.half { width: 50%; _width: 49.9% }
+.col.fourty-five { width: 45%; }
+.col.third { width: 33.3%; }
+.col.quarter { width: 25%; //width: 24.99%; }
+.col.fifth { width: 20%; }
+.col.eighty { width: 80%; }
+.col.seventy-five { width: 75%; }
+.col.seventy { width: 70%; }
+.col.sixty { width: 60%; }
+.col.fourty-five { width: 45%; }
+.col.fourty { width: 40%; }
+.col.thirty { width: 30%; }
+.col.tenth { width: 10%; }
+.col.twentieth { width: 5%; }
+
+/*//////////////////
+// Level 1 Styles //
+//////////////////*/
+
+/* Set content container padding */
+.row .col .content { padding: 20px; }
+
+.row .col .content.first { padding-top: 0px; }
+.row .col .content.last { padding-bottom: 0px; }
+
+/* Clear padding for first and last rows */
+.row.first .col .content { padding-top: 0px; }
+.row.last .col .content { padding-bottom: 0px; }
+
+/* Conditionally keep margins on first and last rows */
+.row.first.keep-margins .content { padding-top: 20px; }
+.row.last.keep-margins .content { padding-bottom: 20px; }
+
+/* Clear padding for first and last columns */
+.row .col.first .content { padding-left: 0px; }
+.row .col.last .content { padding-right: 0px; }
+
+.row .col.first .content .row .col .content,
+.row .col.last .content .row .col .content {
+    padding: 20px 20px 20px 20px;
+}
+
+.row .col.first .content .row .col.first .content {
+    padding-left: 0px;
+}
+
+.row .col.first .content .row .col.first .content .col .first {
+    padding-left: 20px;
+}
+
+.row .col.last .content .row .col.last .content {
+    padding-right: 0px;
+}
+
+.row .col.last .content .row .col.last .content .col .content {
+    padding-right: 20px;
+}
+
+/* .row .col.first .content .row .col.first .content .row .col .content,
+.row .col.last .content .row .col.last .content .row .col .content {
+    padding: 20px;
+} */
+
+
+/*////////////////////
+// Level 2 & Beyond //
+////////////////////*/
+
+/* Unset Level 2 row widths */
+.row .row { width: auto; }
+
+.row .row .col {
+
+}
+
+.content.no-padding { padding: 0px 0px 0px 0px !important; }
+.content.add-padding { padding: 20px 20px 20px 20px !important; }
+
+/* Forced floating */
+.foat-left, .row .col.float-left { float: left; }
+.float-right, .row .col.float-right { float: right; }
+
+.block { display: block; }
+.inline-block { display: inline-block; }
