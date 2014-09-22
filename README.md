@@ -1,4 +1,4 @@
 GridCSS
 =======
 
-Grid CSS Layout (Extends HTML5 Boilerplate)
+Grid CSS Layout (Built on HTML5 Boilerplate)
