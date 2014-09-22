@@ -1,9 +1,8 @@
-GridCSS
-=======
+#GridCSS
 
 Grid CSS Layout (Built on HTML5 Boilerplate)
 
-#The MIT License (MIT)
+##The MIT License (MIT)
 
 Copyright (c) 2014 Ash Finlayson
 
