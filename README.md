@@ -25,7 +25,7 @@ OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
 THE SOFTWARE.
 
 ##Examples
-Sites using GriddCSS
+Sites using GridCSS
 
 - https://www.iwantgreatcare.org
 - http://www.iwgc.org
