@@ -2,13 +2,33 @@
    Media Queries
    ========================================================================== */
 
-@media only screen and (min-width: 35em) {
-
-}
-
-@media print,
-       (-o-min-device-pixel-ratio: 5/4),
-       (-webkit-min-device-pixel-ratio: 1.25),
-       (min-resolution: 120dpi) {
-
+@media only screen and (orientation : portrait) {
+    .col.full
+    .col.third-double
+    .col.fifty-five
+    .col.half
+    .col.fourty-five
+    .col.third
+    .col.quarter
+    .col.fifth
+    .col.eighty
+    .col.seventy-five
+    .col.seventy
+    .col.sixty
+    .col.fourty-five
+    .col.fourty
+    .col.thirty
+    .col.tenth
+    .col.twentieth {
+        width: auto;
+        display: block;
+        float: none;
+    }
+    
+    .col .content,
+    .col.first .content,
+    .col.last .content,
+    .col.first .content .content {
+        padding: 10px 10px 10px 10px;
+    }
 }
